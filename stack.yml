@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  hello-csharp:
+    lang: csharp
+    handler: ./cs/
+    image: faas-hello-csharp
